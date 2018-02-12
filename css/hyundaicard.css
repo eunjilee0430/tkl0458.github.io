@@ -1,0 +1,35 @@
+@font-face {
+font-family: 'YouandiModernTR';
+font-style: normal;
+font-weight: normal;
+src: url(../font/YouandiModernTR.eot);
+src: url(../font/YouandiModernTR.woff) format('woff'),
+url(../font/YouandiModernTR.ttf) format('opentype');
+}
+
+html, body, table, div, p {font-family: 'YouandiModernTR'!important;}
+
+#mainNav {
+	background-color: black;
+}
+#mainNav .navbar-brand {
+    font-family: 'YouandiModernTR'!important;;
+}
+
+.section-subheading{
+	font-family: 'YouandiModernTR'!important;;
+}
+
+
+div #two .intro-heading{
+	background-color:yellow;
+}
+
+section .three_picture{
+	padding:0px;
+}
+
+@media (min-width: 768px)
+section .three_picture{
+	padding:0px;
+}
